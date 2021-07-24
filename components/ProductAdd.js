@@ -1,12 +1,12 @@
-
+import Images from 'next/image';
 
 export default function ProductAdd() {
   return (
     <>
       <div className="product_add">
 
-        <div className='image mb-2 p-2' >
-          <img className='w-100 h-100' src='https://preview.colorlib.com/theme/onetech/images/xdeals.png.pagespeed.ic.nmhfwwkKMA.webp' alt='..' />
+        <div className='image image_product mb-2 p-2' >
+          <Images className='w-100 h-100' src='/images/product-0.webp' width={100} height={100} alt='..' />
         </div>
         
         <div className="content" >
@@ -27,8 +27,8 @@ export default function ProductAdd() {
               <span className='mb-0 fs-11 text-secondary' >Available : 6</span>
               <span className='mb-0 fs-11 text-secondary ' >Already sold : 28</span>              
             </div>
-            <div class="progress ">
-               <div class="progress-bar" role="progressbar" style={{width:'25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" />
+            <div className="progress ">
+               <div className="progress-bar" role="progressbar" style={{width:'25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" />
             </div>
           </div>
 

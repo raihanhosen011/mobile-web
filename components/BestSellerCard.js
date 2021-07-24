@@ -1,4 +1,5 @@
 import { StarIcon } from '@heroicons/react/solid'
+import Images from 'next/image'
 import { useState } from 'react'
 
 export default function BestSeller({id,title,price,category,image}) {
@@ -7,7 +8,7 @@ export default function BestSeller({id,title,price,category,image}) {
   return <>
     <div className='best_seller my-3 d-flex align-items-center p-2 me-2 bg-white rounded-3' >
       <div className='best_Seller_image' >
-         <img className='h-100 w-100 image-fluid' src={image} alt='...' />
+         <Images className='h-100 w-100 image-fluid' width={100} height={100} src={image} alt='...' />
       </div>
       <div className='info' >
         <p className='mb-0 fs-11 text-secondary' >{category}</p>
@@ -16,7 +17,7 @@ export default function BestSeller({id,title,price,category,image}) {
            {Array(rating)
              .fill()
              .map(() => (
-               <StarIcon className="w-15" />
+               <StarIcon key={rating} className="w-15" />
            ))}
         </div>
         <div className='prices d-flex align-items-center' >

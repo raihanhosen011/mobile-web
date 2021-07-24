@@ -1,4 +1,5 @@
 import { Button } from "@material-ui/core";
+import Images from 'next/image';
 
 const Hero = () => {
   return (
@@ -18,10 +19,12 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="home__image">
-          <img
-            src="https://preview.colorlib.com/theme/onetech/images/xbanner_product.png.pagespeed.ic.8YoeI51pih.webp"
-            alt=""
+        <div className="home__image d-flex align-items-center justify-content-center">
+          <Images
+              src="/images/hero-img.webp"
+              alt=""
+              height={100}
+              width={100}
           />
         </div>
       </div>

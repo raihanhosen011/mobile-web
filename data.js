@@ -1,9 +1,9 @@
 export const popular = [
-  {name:'Tablet',img:'https://preview.colorlib.com/theme/onetech/images/xpopular_1.png.pagespeed.ic.iakLDOhA7r.webp'},
-  {name:'Laptops',img:'https://preview.colorlib.com/theme/onetech/images/xpopular_2.png.pagespeed.ic.2dscQlBLuy.webp'},
-  {name:'Gadget',img:'https://preview.colorlib.com/theme/onetech/images/xpopular_3.png.pagespeed.ic.0uu5Dfk2Gh.webp'},
-  {name:'Video game',img:'https://preview.colorlib.com/theme/onetech/images/xpopular_4.png.pagespeed.ic.2oShzKU_RW.webp'},
-  {name:'Acecorys ',img:'https://preview.colorlib.com/theme/onetech/images/xpopular_5.png.pagespeed.ic.N9JFcEegtU.webp'},
+  {name:'Tablet',id:1,img:'/images/popular-1.webp'},
+  {name:'Laptops',id:2,img:'/images/popular-2.webp'},
+  {name:'Gadget',id:3,img:'/images/popular-3.webp'},
+  {name:'game',id:4,img:'/images/popular-4.webp'},
+  {name:'Acecorys ',id:5,img:'/images/popular-5.webp'},
 ]
 
 export const products = [
@@ -13,7 +13,7 @@ export const products = [
     price:225.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct02.png.pagespeed.ic.zbvcFh0rRy.webp'
+    image:'/images/product-0.webp'
   },
   {
     id:2,
@@ -21,7 +21,7 @@ export const products = [
     price:282.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct01.png.pagespeed.ic.flJc5JT8yl.webp'
+    image:'/images/product-1.webp'
   },
   {
     id:3,
@@ -29,7 +29,7 @@ export const products = [
     price:362.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct03.png.pagespeed.ic.cQrB7wvQ5E.webp'
+    image:'/images/product-2.webp'
   },
   {
     id:4,
@@ -37,7 +37,7 @@ export const products = [
     price:85.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct04.png.pagespeed.ic.Nmz_g7OX-H.webp'
+    image:'/images/product-3.webp'
   },
   {
     id:5,
@@ -45,7 +45,7 @@ export const products = [
     price:295.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct05.png.pagespeed.ic.THq_JuCB2a.webp'
+    image:'/images/product-4.png'
   },
   {
     id:6,
@@ -53,7 +53,7 @@ export const products = [
     price:62.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct07.png.pagespeed.ic.96craXAXfp.webp'
+    image:'/images/product-5.webp'
   },
   {
     id:7,
@@ -61,7 +61,7 @@ export const products = [
     price:862.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct09.png.pagespeed.ic.1JkuDEQEIw.webp'
+    image:'/images/product-6.png'
   },
   {
     id:8,
@@ -69,7 +69,7 @@ export const products = [
     price:55.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/electro/img/xproduct06.png.pagespeed.ic.hnP3x9P-Fz.webp'
+    image:'/images/product-7.png'
   },
   {
     id:9,
@@ -77,15 +77,15 @@ export const products = [
     price:22.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/onetech/images/xfeatured_1.png.pagespeed.ic.nzWvRNeKk3.webp'
+    image:'/images/product-8.webp'
   },
   {
     id:10,
-    title:'Samsung 49-Inch CHG90',
+    title:'Samsung Inch CHG90',
     price:285.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/onetech/images/xtrends_1.jpg.pagespeed.ic.sNjnQ-1ePj.webp'
+    image:'/images/product-10.jpeg'
   },
   {
     id:11,
@@ -93,7 +93,7 @@ export const products = [
     price:336.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://preview.colorlib.com/theme/onetech/images/xtrends_2.jpg.pagespeed.ic.qX9onP8wVn.webp'
+    image:'/images/product-11.webp'
   },
   {
     id:12,
@@ -101,7 +101,7 @@ export const products = [
     price:851.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20200706_1594007718_561162.jpeg'
+    image:'/images/product-12.png'
   },
   {
     id:13,
@@ -109,7 +109,7 @@ export const products = [
     price:334.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://assets-global.website-files.com/5c83f8108f0953bf20bcaf76/5c9aa797bc07701fca387e4e_sofar-trident-product.png'
+    image:'/images/product-13.png'
   },
   {
     id:14,
@@ -117,7 +117,7 @@ export const products = [
     price:256.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://golfdigest.sports.sndimg.com/content/dam/images/golfdigest/fullset/2020/01/23/5e2918da6dd4f400081ebdf5_BushnellWingman_Angled2.png.rend.hgtvcom.476.357.suffix/1581449862643.png'
+    image:'/images/product-14.jpg'
   },
   {
     id:15,
@@ -125,7 +125,7 @@ export const products = [
     price:985.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://bsmedia.business-standard.com/_media/bs/img/article/2020-06/19/full/1592585516-4999.jpg'
+    image:'/images/product-15.png'
   },
   {
     id:16,
@@ -133,7 +133,7 @@ export const products = [
     price:36.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://www.miniprinter.com/file/image.do?SEQ=2403'
+    image:'/images/product-16.png'
   },
   {
     id:17,
@@ -141,7 +141,7 @@ export const products = [
     price:21.2,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://www.iqfan.eu/IQOS-24-I_22655'
+    image:'/images/product-17.png'
   },
   {
     id:18,
@@ -149,7 +149,7 @@ export const products = [
     price:356,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'http://sc04.alicdn.com/kf/HTB1PhCcib3nBKNjSZFM761USFXaX.png'
+    image:'/images/product-18.png'
   },
   {
     id:19,
@@ -157,14 +157,14 @@ export const products = [
     price:22.3,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://ozeroneshop.com/img/product/mi-antibacterial-humidifier/mi-antibacterial-humidifier_1612606249.png'
+    image:'/images/product-19.png'
   },
   {
     id:20,
-    title:'Samsung 49-Inch CHG90',
+    title:'Samsung 5-Inch CHG90',
     price:22,
     description:'49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate',
     category:'Technologycal',
-    image:'https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20200723_1595479923_676564.jpeg'
+    image:'/images/product-20.png'
   }
 ]

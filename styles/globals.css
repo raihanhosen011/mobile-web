@@ -1,75 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
-  background: #FAFAFA !important;
+  font-family: "Lato", sans-serif;
+  background: #ffffff !important;
 }
-.fs-18{
+.fs-18 {
   font-size: 18px;
 }
-.fs-20{
+.fs-20 {
   font-size: 20px;
 }
-.fs-30{
+.fs-30 {
   font-size: 30px;
 }
-.fs-26{
+.fs-26 {
   font-size: 26px;
 }
-.angkor{
+.angkor {
   cursor: pointer;
   text-decoration: none;
   color: #878787;
 }
-.fs-14{
+.fs-14 {
   font-size: 14px;
 }
-.fs-12{
+.fs-12 {
   font-size: 12px;
 }
-.fs-11{
+.fs-11 {
   font-size: 11px;
 }
-.tomato{
+.tomato {
   color: rgb(255, 75, 43);
 }
-.red{
+.red {
   color: red !important;
 }
-.bg-brown{
-  background : #EFF6FA !important;
+.bg-brown {
+  background: #eff6fa !important;
 }
-.text-main{
+.text-main {
   color: #3d9971;
 }
-.w-20{
+.w-20 {
   width: 20px;
 }
-.w-26{
+.w-26 {
   width: 26px;
 }
-.w-36{
+.w-36 {
   width: 36px;
 }
-.w-15{
+.w-15 {
   width: 15px;
 }
-.fw-550{
+.fw-550 {
   font-weight: 550;
 }
-.pointer{
-  cursor : pointer ;
+.pointer {
+  cursor: pointer;
 }
-.z-20{
-  z-index:20;
+.z-20 {
+  z-index: 20;
 }
-.z-200{
-  z-index:200;
+.z-200 {
+  z-index: 200;
 }
-.color-rating{
+.color-rating {
   color: rgb(255, 187, 0);
 }
 .text-clamp-1 {
@@ -84,10 +84,21 @@ body {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-.black{
+.black {
   color: rgb(184, 184, 184);
 }
-.max-width{
+.max-width {
   max-width: 1200px;
   margin: auto !important;
+}
+
+.banner_2_image > div {
+  width: 100%;
+}
+.image_product > div {
+  width: 100%;
+}
+.home__image > div {
+  width: 65%;
+  height: 94%;
 }

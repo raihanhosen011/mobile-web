@@ -1,4 +1,5 @@
 import { StarIcon } from '@heroicons/react/solid'
+import Images from 'next/image'
 import { useState } from 'react'
 
 export default function Bennar() {
@@ -19,7 +20,7 @@ export default function Bennar() {
                   {Array(rating)
                     .fill()
                     .map(() => (
-                      <StarIcon className="w-15" />
+                      <StarIcon key={rating} className="w-15" />
                   ))}
                 </div>
                 <button className='btn bg-primary text-white' >Explore</button>
@@ -27,7 +28,7 @@ export default function Bennar() {
 
               <div className='col-lg-8 col-md-6' >
                 <div className='banner_2_image mt-5 mt-md-0' >
-                  <img className='h-100 w-100 image-fluid' src='https://preview.colorlib.com/theme/onetech/images/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp' />
+                  <Images className='h-100 w-100 image-fluid' src='/images/bennar-2.webp' width={100} height={50} />
                 </div>
               </div>
             

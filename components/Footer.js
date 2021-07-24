@@ -1,8 +1,8 @@
 import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TelegramIcon from "@material-ui/icons/Telegram";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 const Footer = () => {
   return (
@@ -75,27 +75,6 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="footer__bottom__right">
-            <img
-              src="https://preview.colorlib.com/theme/onetech/images/xlogos_1.png.pagespeed.ic.TDuPp8neuR.webp"
-              alt="mastercard"
-            />
-
-            <img
-              src="https://preview.colorlib.com/theme/onetech/images/xlogos_2.png.pagespeed.ic.bYGIUuWTGv.webp"
-              alt="visa"
-            />
-
-            <img
-              src="https://preview.colorlib.com/theme/onetech/images/xlogos_3.png.pagespeed.ic.vd1jp3ndtX.webp"
-              alt="paypal"
-            />
-
-            <img
-              src="https://preview.colorlib.com/theme/onetech/images/xlogos_4.png.pagespeed.ic.3NlS-r1FuI.webp"
-              alt=""
-            />
-          </div>
         </div>
       </div>
     </div>

@@ -1,9 +1,10 @@
-import { TrashIcon,BadgeCheckIcon, PrinterIcon } from '@heroicons/react/solid'
-import Rating from '../components/Rating'
+import { BadgeCheckIcon, TrashIcon } from '@heroicons/react/solid';
+import Images from 'next/image';
+import { useRouter } from 'next/router';
 import Currency from 'react-currency-formatter';
-import { useDispatch, useSelector } from 'react-redux'
-import { useRouter } from 'next/router'
-import { remProducts,subTotal } from '../slices/BasketSlice'
+import { useDispatch, useSelector } from 'react-redux';
+import Rating from '../components/Rating';
+import { remProducts, subTotal } from '../slices/BasketSlice';
 
 export default function Chackout() {
     const BaskItem = useSelector(stat => stat.basket.items)
@@ -28,27 +29,27 @@ export default function Chackout() {
                     <hr/>
                     {
                      BaskItem.map(({id,title,price,description,category,image}) => 
-                    <div className='item d-flex border p-2 mb-2' >
-                      <div className='item_image w-25 p-2' >
-                        <img className='w-100 h-100 object-contain' src={image} alt='..' />
-                      </div>
-                      <div className='item_info w-75' >
-                        <p className='mb-0 fs-11 text-secondary' >{category}</p>
-                        <h5 className='fw-550 text-primary mb-2 text-clamp-1' >{title}</h5>
-                        <p className='text-clamp-2 mb-1' >{description}</p>
-
-                        <Rating/>
-                        
-                        <div className='d-flex align-items-center justify-content-between' >
-                            <p className='fw-bold tomato mb-0 me-1' > <Currency quantity={price} currency="USD" /></p>
-                            <button onClick={() => dispatch(remProducts(id))} className='btn shoping_btn border rounded bg-primary text-white mx-2 d-flex align-items-center text-secondary' >
-                              <TrashIcon className='w-20' />
-                            <p className='add_cart mb-0 ms-1 fs-12' >Remove from Cart</p>                
-                            </button>
+                      <div key={id} className='item d-flex border p-2 mb-2' >
+                        <div className='item_image d-flex align-items-center justify-content-center w-25 p-2' >
+                          <Images className='w-100 h-100 object-contain' src={image} height={100} width={100} alt='..' />
                         </div>
-                        
-                      </div>
-                    </div>        
+                        <div className='item_info w-75' >
+                          <p className='mb-0 fs-11 text-secondary' >{category}</p>
+                          <h5 className='fw-550 text-primary mb-2 text-clamp-1' >{title}</h5>
+                          <p className='text-clamp-2 mb-1' >{description}</p>
+
+                          <Rating/>
+                          
+                          <div className='d-flex align-items-center justify-content-between' >
+                              <p className='fw-bold tomato mb-0 me-1' > <Currency quantity={price} currency="USD" /></p>
+                              <button onClick={() => dispatch(remProducts(id))} className='btn shoping_btn border rounded bg-primary text-white mx-2 d-flex align-items-center text-secondary' >
+                                <TrashIcon className='w-20' />
+                              <p className='add_cart mb-0 ms-1 fs-12' >Remove from Cart</p>                
+                              </button>
+                          </div>
+                          
+                        </div>
+                      </div>        
                      )
                     }
                     </div>

@@ -9,7 +9,7 @@ export default function Rating() {
         {Array(rating)
           .fill()
           .map(() => (
-            <StarIcon className="w-15" />
+            <StarIcon key={rating} className="w-15" />
         ))}
       </div>
     )

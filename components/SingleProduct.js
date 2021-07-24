@@ -1,10 +1,11 @@
-import { EyeIcon,ShoppingCartIcon } from '@heroicons/react/outline'
-import { HeartIcon,StarIcon } from '@heroicons/react/solid'
-import { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { addProducts,addFavourite,remFavourite } from '../slices/BasketSlice'
+import { EyeIcon, ShoppingCartIcon } from '@heroicons/react/outline'
+import { HeartIcon, StarIcon } from '@heroicons/react/solid'
+import Images from 'next/image'
 import { useRouter } from 'next/router'
-import Currency from 'react-currency-formatter';
+import { useState } from 'react'
+import Currency from 'react-currency-formatter'
+import { useDispatch } from 'react-redux'
+import { addFavourite, addProducts, remFavourite } from '../slices/BasketSlice'
 
 export default function ProductStore({id,title,price,description,category,image}) {
     const [heart,setHeart] = useState(false)
@@ -27,8 +28,8 @@ export default function ProductStore({id,title,price,description,category,image}
     return (
       <>
         <div className='arrivals_slider_item mx-auto border rounded p-2 p-1' >
-          <div className='image_wrapper p-3 w-100' >
-            <img className='w-100 h-100 object-contain' src={image} alt='...' />
+          <div className='image_wrapper image_product p-3 w-100' >
+            <Images className='object-contain' src={image} width={100} height={100} alt='...' />
           </div>
 
           <div className='product_body text-center' >
@@ -39,7 +40,7 @@ export default function ProductStore({id,title,price,description,category,image}
               {Array(rating)
                 .fill()
                 .map(() => (
-                  <StarIcon className="w-15" />
+                  <StarIcon key={rating} className="w-15" />
               ))}
             </div>
 

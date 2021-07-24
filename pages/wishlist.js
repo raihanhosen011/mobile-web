@@ -1,9 +1,10 @@
-import Rating from '../components/Rating'
 import { ShoppingCartIcon } from '@heroicons/react/outline'
-import { useSelector,useDispatch } from "react-redux"
+import Images from 'next/image'
+import { useDispatch, useSelector } from "react-redux"
+import Rating from '../components/Rating'
 import { addProducts } from '../slices/BasketSlice'
 
-export default function wishlist() {
+export default function Wishlist() {
     const fav = useSelector(stat => stat.basket.favo)
     const dispatch = useDispatch()
     
@@ -14,9 +15,9 @@ export default function wishlist() {
           <hr/>
           {
             fav.map(({id,title,price,description,category,image}) => 
-            <div className='item d-flex border p-2 mb-2' >
+            <div key={id} className='item d-flex border p-2 mb-2' >
               <div className='item_image w-25 p-2' >
-                <img className='w-100 h-100 object-contain' src={image} alt='..' />
+                <Images className='w-100 h-100 object-contain' src={image} width={100} height={100} alt='..' />
               </div>
               <div className='item_info w-75' >
                 <p className='mb-0 fs-11 text-secondary' >{category}</p>

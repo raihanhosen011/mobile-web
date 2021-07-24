@@ -1,8 +1,8 @@
 .hero {
   width: 100%;
+  background: url(/images/bg.webp);
   height: 76vh;
 }
-
 .home__wrapper {
   max-width: 90%;
   margin: auto;

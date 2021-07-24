@@ -1,8 +1,9 @@
-import Rating from './Rating'
 import { XCircleIcon } from '@heroicons/react/outline'
+import Images from 'next/image'
+import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
 import { remFavourite } from '../slices/BasketSlice'
-import { useRouter } from 'next/router'
+import Rating from './Rating'
 
 export default function WIshlistPopup() {
   const dispatch = useDispatch()
@@ -18,9 +19,9 @@ export default function WIshlistPopup() {
            <hr/>
             {stat.slice(0,3).map(({id,title,price,image}) => 
 
-                <div className='item border border m-2 d-flex p-2' >
+                <div key={id} className='item border border m-2 d-flex p-2' >
                   <div className='item_img me-3 w-25' >
-                    <img className='w-100 h-100' src={image} alt='...' />   
+                    <Images className='w-100 h-100' src={image} width={100} height={100} alt='...' />   
                   </div>
                   <div className='item_data w-75' >
                     <h6 className='text-clamp-1' >{title}</h6>
